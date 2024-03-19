@@ -47,6 +47,55 @@ Você terá o log
 Listening Port 3333 👀
 ```
 
-Utilize o Insomnia para consumir as requisições, importe o arquivo _insomnia-http-requests.json_
+Você pode utilizar o [Insomnia](https://insomnia.rest/) para consumir as requisições, importe o arquivo _insomnia-http-requests.json_
 
 -----
+
+## en-US 🇺🇸
+
+Project created from [Rocketseat's 🚀](https://www.rocketseat.com.br/) Ignite (NodeJs's trail) bootcamp first module.
+
+The project goal is learn about basic concepts to create an API using NodeJS without third-party dependencies.
+
+## Applied concepts
+- What is NodeJS;
+- Difference between Common JS / Esmodules;
+- Difference between Stateful and Stateless applications;
+- What are routes;
+- What are HTTP requests and responses:
+    - Query Params;
+    - Route Params;
+    - Headers;
+    - Body;
+    - HTTP Status Code;
+    - Middleware concept.
+- Streams on Node:
+    - Asynchronous data reading;
+    - Asynchronous data writing.
+- Buffer concept;
+- Regex;
+- Filesystem:
+    - Writing files;
+    - Reading files;
+
+## How to execute?
+Prerequisites
+
+```bash
+node >= 18
+npm >= 10
+```
+
+Run:
+
+```bash
+npm run dev
+```
+
+You should have the log below
+
+```bash
+Listening Port 3333 👀
+```
+
+You can use [Insomnia](https://insomnia.rest/) to execute the requests, import _insomnia-http-requests.json_ inside yours Insomnia application.
